@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#clockContainer{
+    position: relative;
+    left: 30%;
+    
+    width: 40vw;
+    
+    height: 40vw;
+    background: url("img/kisspng-clock-face-roman-numerals-numeral-system-digital-c-digital-clock-5a91255e4b3017.060806111519461726308.png");
+    background-size: 100%;
+}
+#hour,#minute,#second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+
+}
+#hour{
+    
+    height: 20%;
+    width: 2%;
+    top: 29%;
+    left: 49%;
+}
+#minute{
+    height: 25%;
+    width: 1%;
+    top: 24%;
+    left: 49.35%;
+   
+    
+
+}
+#second{
+    height: 35%;
+    width: .5%;
+    top: 14%;
+    left: 49.7%;
+    
+   
+
+}
